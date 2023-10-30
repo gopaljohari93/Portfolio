@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <!-- favicon generator -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+
+    <!-- SEO tags -->
+    <meta name="description"
+        content="My portfolio website to showcase the work I have done so far, the services I provide and all my professionals life">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Sass, Bootstrap, portfolio website">
+    <meta name="author" content="Gopal Johari">
+    <meta name="Robots" content="index, follow">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- Custom CSS cdn link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- Navbar section start -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section ends -->
+
+    <!-- Banner section start -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD</h6>
+                    <h1>I'm Gopal Johari <br><span>UI Developer.</span><br>based in India</h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="resume/Gopal_Johari_Resume.pdf" target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section ends -->
+
+    <!-- About section start -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="./images/about.webp" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>As a UI Developer I created a lot of different websites for our clients using
+                            HTML, CSS and JavaScript, Bootstrap, Scss, Figma, Photoshop to built the sites.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main Skills</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experience" type="button" role="tab"
+                                    aria-controls="pills-experience" aria-selected="false">Experience</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab" tabindex="0">
+                                <div class="single-progress">
+                                    <h6>Website Designing</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 95%"></div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Website Development</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                    </div>
+                                    <span class="label">90%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Project Management Skills</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 85%"></div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Seo Skills</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 92%"></div>
+                                    </div>
+                                    <span class="label">92%</span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                                aria-labelledby="pills-experience-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">UI Developer <span>- Coreflex Solutions Inc.</span></a> <br> SEPT
+                                        2022 –
+                                        JAN 2023
+                                    </li>
+                                    <li><a href="#">Front-End Developer <span>- Tradebuilder Technologies Pvt
+                                                Ltd.</span></a> <br> FEB 2021 – MARCH 2022
+                                    </li>
+                                    <li><a href="#">Front-End Developer <span>- Immply India Technology Pvt
+                                                Ltd.</span></a> <br> OCT 2019 – JAN 2020
+                                    </li>
+                                    <li><a href="#">Front-End Developer <span>- SWARAJ IT SERVICES</span></a> <br> AUG
+                                        2018 – SEPT 2019
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Post-Graduation: MCA <span>- SRTM University, Nanded</span></a> <br>
+                                        July 2018
+                                    </li>
+                                    <li><a href="#">Graduation: BCA <span>- SRTM University, Nanded</span></a> <br> July
+                                        2015
+                                    </li>
+                                    <li><a href="#">HSC <span>- VN College, Nanded</span></a> <br> July 2010
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Portfolio section start -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete Project</span>
+                    <h2>My Latest Project</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available,<br class="d-none d-md-block">
+                        but the majority have suffered alteration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/Hotel-Website/" target="_blank"
+                            style="background-image: url('./images/portfolio/Hotel-Website.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/Ecommerce-jewellery/" target="_blank"
+                            style="background-image: url('./images/portfolio/Ecommerce-Jewellery-Website.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/Food-Organic/" target="_blank"
+                            style="background-image: url('./images/portfolio/Food-Organic.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/headphones/" target="_blank"
+                            style="background-image: url('./images/portfolio/HeadPhones.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/Gym-Website/" target="_blank"
+                            style="background-image: url('./images/portfolio/Gym-Website.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/food-restaurant/" target="_blank"
+                            style="background-image: url('./images/portfolio/Foodies.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/Parallax-multipages-website/" target="_blank"
+                            style="background-image: url('./images/portfolio/Parallax-multipages-website.webp');"></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <a href="https://gopaljohari93.github.io/online-shopping/" target="_blank"
+                            style="background-image: url('./images/portfolio/E-Commerce-Website.webp');"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section ends -->
+
+    <!-- Services section start -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2>My Awesome Service</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available,<br class="d-none d-md-block">
+                        but the majority have suffered alteration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-1.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Website Development</h3>
+                            <p>Website Development need consistent colors, fonts, and design to match the
+                                organization's branding guidelines, Responsive Web Design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Webpage Designing</h3>
+                            <p>Webpage Designing websites need consistent colors, fonts, and design to match the
+                                organization's branding guidelines, Responsive Web Design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>PSD to Bootstrap Services</h3>
+                            <p>UI developers convert PSD and Figma files into pixel-perfect standards that are compliant
+                                with
+                                HTML5/CSS3/Bootstrap templates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>HTML & CSS Responsive Web Design</h3>
+                            <p>Enterprise-class websites need consistent colors, fonts, and design to match the
+                                organization's branding guidelines, Responsive Web Design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Mobile App Development</h3>
+                            <p>Mobile App Development need consistent colors, fonts, and design to match the
+                                organization's branding guidelines, Responsive Web Application.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-1.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Project management skills</h3>
+                            <p>Project management skills need consistent colors, fonts, and design to match the
+                                organization's branding guidelines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ends -->
+
+    <!-- Contact section start -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">My Contact Info</span>
+                    <h2>Hire Me.</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+91 8459205498</a>
+                        </div>
+
+                        <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:gopaljohari007@gmail.com">gopaljohari007@gmail.com</a>
+                        </div>
+                    </div>
+                    <form action="" onsubmit="return validateFrom()">
+                        <div class="mb-4">
+                            <input type="text" id="username" class="form-control" placeholder="Your Name..."
+                                autocomplete="off">
+                            <p id="userError" class="error"></p>
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" id="number" class="form-control" placeholder="Your Phone..."
+                                autocomplete="off">
+                            <p id="numberError" class="error"></p>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email..."
+                                autocomplete="off">
+                            <p id="emailError" class="error"></p>
+                        </div>
+                        <div class="mb-4">
+                            <textarea cols="40" rows="4" id="message" class="form-control"
+                                placeholder="Write a Message..." autocomplete="off"></textarea>
+                            <p id="messageError" class="error"></p>
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-1 mb-lg-0">
+                    <img src="./images/contact.webp" alt="contact" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer section start -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png" alt="footer-logo" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end 
+                    justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.linkedin.com/in/gopal-johari-739061222/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/gopaljohari93/" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/gopaljohari93/" target="_blank"><i
+                                    class="fa-solid fa-user-graduate"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright @ 2023 <a href="#">Website</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section ends -->
+
+
+    <!-- Bootstrap 5 Js CDN Linkss -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS cdn link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
